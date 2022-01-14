@@ -1,5 +1,5 @@
-FROM sbwml/alist:latest
-MAINTAINER cooluc <admin@cooluc.com>
+FROM xhofe/alist:latest
+LABEL MAINTAINER="i@nn.ci"
 
 RUN chmod -R 777 /alist/config
 ADD alist.sh /alist.sh

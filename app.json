@@ -34,6 +34,10 @@
     "HCLEANUP_INTERVAL": {
        "description": "清理失效缓存间隔",
        "value": "120"
+    },
+    "IASSETS": {
+      "description": "静态资源(可选local/jsdelivr/zhimg)",
+      "value": "zhimg"
     }
   },
   "website": "https://hub.docker.com/r/sbwml/alist",

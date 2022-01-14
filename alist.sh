@@ -1,10 +1,11 @@
 # 创建配置文件目录
-mkdir -p /alist/config/
+mkdir -p /opt/alist/data/
 
-cat >/alist/config/config.json <<EOF
+cat >/opt/alist/data/config.json <<EOF
 {
   "address": "0.0.0.0",
   "port": $PORT,
+  "assets": "$IASSETS",
   "database": {
     "type": "$ADATABASE",
     "user": "$BSQLUSER",
