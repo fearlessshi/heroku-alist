@@ -14,7 +14,7 @@ cat >/opt/alist/data/config.json <<EOF
     "port": $ESQLPORT,
     "name": "$FSQLNAME",
     "table_prefix": "x_",
-    "db_file": "/alist/config/data.db"
+    "db_file": "data.db"
   },
   "scheme": {
     "https": false,
