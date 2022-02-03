@@ -37,7 +37,7 @@
     },
     "IASSETS": {
       "description": "静态资源(可选local/jsdelivr/zhimg)",
-      "value": "zhimg"
+      "value": "jsdelivr"
     }
   },
   "website": "https://hub.docker.com/r/sbwml/alist",
