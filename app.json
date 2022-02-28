@@ -40,7 +40,7 @@
       "value": "jsdelivr"
     }
   },
-  "website": "https://hub.docker.com/r/sbwml/alist",
-  "repository": "https://hub.docker.com/r/sbwml/alist",
+  "website": "https://github.com/alist-org/alist-heroku",
+  "repository": "https://github.com/alist-org/alist-heroku",
   "stack": "container"
 }
